@@ -5,8 +5,8 @@
 # On each release, bump `version` and set `sha256` to the DMG's hash
 # (the "sha256" in website/public/releases/latest.json).
 cask "copyclip" do
-  version "1.16.0"
-  sha256 "a7d9e40842aee530a4ecd69bb6689e8ad5f7a83cac99e94115524a7d13d94b9a"
+  version "1.17.0"
+  sha256 "9db222310e90e3885f890a3c36fd24a8ccd9dae39a4fc9ee83a5c7692451c7fc"
 
   url "https://copyclip.app/releases/CopyClip-#{version}.dmg"
   name "CopyClip"
