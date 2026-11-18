@@ -1,12 +1,12 @@
-# Homebrew cask for CopyClip, for a personal tap (homebrew/cask needs more GitHub
-# popularity for a self-submission). Publish it as Casks/copyclip.rb in a public
-# GitHub repo named homebrew-tap, then users install with:
-#   brew install --cask <github-user>/tap/copyclip
-# On each release, bump `version` and set `sha256` to the DMG's hash
-# (the "sha256" in website/public/releases/latest.json).
+# Homebrew cask for CopyClip, published in the yas305/homebrew-tap repo as
+# Casks/copyclip.rb (homebrew/cask needs more GitHub popularity for a
+# self-submission). Users install with:
+#   brew install --cask yas305/tap/copyclip
+# On each release, bump `version` and set `sha256` to the DMG's hash (the
+# "sha256" in website/public/releases/latest.json), here and in the tap repo.
 cask "copyclip" do
-  version "1.18.0"
-  sha256 "9da9d523c43a23cd993fbd60f8466aafb6a25977094d8a6f1aa1704896e830b1"
+  version "1.18.1"
+  sha256 "7efb6a398f8b093ad028cba50342951508de43cf516749bf09cf6dbdc57e3467"
 
   url "https://copyclip.app/releases/CopyClip-#{version}.dmg"
   name "CopyClip"
